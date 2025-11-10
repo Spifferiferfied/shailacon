@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${heading.variable} ${body.variable} antialiased`}>
-        <header className="container mx-auto flex justify-center mx-auto bg-[#77499D] py-4 h-(--header-height)">
+        <header className="container mx-auto flex justify-center mx-auto py-4 h-(--header-height)">
           <nav className="w-full bg-white flex items-center justify-evenly">
             <ul className="flex justify-evenly w-full">
               <li className="flex items-center">

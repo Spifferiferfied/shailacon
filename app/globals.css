@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #77499d;
   --foreground: #333333;
   --spacing-4: calc(var(--spacing) * 4);
   --header-height: calc(72px + var(--spacing-4));
@@ -15,6 +15,11 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    interpolate-size: allow-keywords;
+  }
+}
 @media (prefers-color-scheme: dark) {
 }
 
@@ -22,4 +27,16 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-lato), Helvetica, sans-serif;
+}
+
+details::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow-y: clip;
+  transition: content-visibility 0.3s allow-discrete, opacity 0.3s,
+    block-size 0.3s;
+}
+details[open]::details-content {
+  opacity: 1;
+  block-size: auto;
 }
