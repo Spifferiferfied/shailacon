@@ -27,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${heading.variable} ${body.variable} antialiased`}>
+      <body
+        className={`${heading.variable} ${body.variable} antialiased text-white font-(family-name:--font-lato)`}
+      >
         <header className="container mx-auto flex justify-center mx-auto py-4 h-(--header-height)">
           <nav className="w-full bg-white flex items-center justify-evenly">
             <ul className="flex justify-evenly w-full">
@@ -57,6 +59,7 @@ export default function RootLayout({
           </nav>
         </header>
         {children}
+        <footer className="text-center py-4">©2025 ShailaCon</footer>
       </body>
     </html>
   );

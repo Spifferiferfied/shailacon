@@ -2,7 +2,7 @@
 
 :root {
   --background: #77499d;
-  --foreground: #333333;
+  --foreground: #ffffff;
   --spacing-4: calc(var(--spacing) * 4);
   --header-height: calc(72px + var(--spacing-4));
   --corner-width: calc(100vw / 2);

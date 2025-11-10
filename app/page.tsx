@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans pb-4">
+    <div className="flex min-h-screen items-center justify-center font-(family-name:--font-lato) pb-4">
       <main className="flex min-h-screen w-full flex-col container text-white">
         <div className="px-6 z-10">
           <h1 className="text-4xl lg:text-9xl font-semibold font-(family-name:--font-oswald) mb-4">
@@ -94,7 +94,7 @@ export default function Home() {
               </details>
               <details name="shailacon-FAQ">
                 <summary className="font-semibold cursor-pointer">
-                  Why is February/March?
+                  Why February/March?
                 </summary>
                 <p className="p-4">
                   The goal was a time for every one together opposite the August
