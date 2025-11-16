@@ -27,7 +27,7 @@ export default function Home() {
               alt="calendar"
               className="inline-block me-1 h-6 w-6"
             />
-            Dayton/Cincinatti, OH
+            Cincinatti, OH
           </h2>
         </div>
         <div className="relative lg:-mt-[10em] overflow-hidden z-0">
@@ -59,9 +59,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-2">Details:</h3>
               <p className="pb-2">
                 Another year of ShailaCon! For 2026 the event will be taking
-                place somewhere between Dayton and Cincinnati, Ohio to make sure
-                everyone can attend. We'll post a link to potential Airbnbs
-                soon.
+                place at our Airbnb in Cincinnati, OH!
               </p>
             </div>
           </div>
@@ -107,9 +105,8 @@ export default function Home() {
                 </summary>
                 <p className="p-4">
                   The first three official ShailaCons were hosted in Columbus,
-                  OH, a spot pretty central to all attendees. In 2026 we're
-                  looking at somewhere between Dayton and Cincinnati, OH so we
-                  can make sure that everyone will be able to make it.
+                  OH, a spot pretty central to all attendees. In 2026 we've
+                  booked an Airbnb in Cincinnati, OH!
                 </p>
               </details>
               <details name="shailacon-FAQ">
