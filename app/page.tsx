@@ -59,7 +59,9 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-2">Details:</h3>
               <p className="pb-2">
                 Another year of ShailaCon! For 2026 the event will be taking
-                place at our Airbnb in Cincinnati, OH!
+                place at our Airbnb in Cincinnati, OH! A weekend of pure
+                tabletop games with friends. Expect all of the old favorites as
+                well as some new ones!
               </p>
             </div>
           </div>
